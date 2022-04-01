@@ -1,0 +1,22 @@
+.blog {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.blog section {
+  width: 100%;
+}
+
+.blog .class-container {
+  width: 90%;
+  padding: 7.4rem 0;
+
+  border-bottom: 3px solid #c4c4c4;
+}

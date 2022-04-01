@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #2e948a;
+
+  padding: 2.6rem 10.3rem;
+  width: 100%;
+
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header div {
+  display: flex;
+  gap: 1.1rem;
+}
+
+header h1 {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 64px;
+  color: white;
+}
+
+header ul {
+  display: flex;
+  gap: 4.2rem;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+header a {
+  color: white;
+}

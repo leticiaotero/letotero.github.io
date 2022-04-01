@@ -1,0 +1,92 @@
+.blog .first-blog-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8.8rem;
+
+  padding-top: 10.8rem;
+  padding-bottom: 6.8rem;
+}
+
+.blog .first-blog-section img {
+  height: 40.5rem;
+  width: 40.5rem;
+}
+
+.blog .first-blog-section b {
+  font-size: 4.7rem;
+  font-weight: 700;
+  line-height: 5.4rem;
+
+  color: #009688;
+}
+
+.blog .first-blog-section p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+
+  margin-top: 3.7rem;
+  margin-bottom: 5.3rem;
+
+  width: 50.1rem;
+}
+
+.blog .second-blog-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f6f6f6;
+
+  padding-bottom: 7rem;
+  padding-top: 10.9rem;
+}
+
+.blog .post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 12.2rem;
+}
+
+.blog .gray-box {
+  height: 25.9rem;
+  width: 51.8rem;
+
+  border: 0.3rem solid #8e8e8e;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #c4c4c4;
+
+  margin-bottom: 1.9rem;
+}
+
+.blog .second-blog-section b {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.4rem;
+
+  color: #ff4081;
+}
+
+.blog .second-blog-section p {
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2rem;
+
+  margin-top: 2.6rem;
+  margin-bottom: 10rem;
+
+  width: 46.1rem;
+}
+
+.blog .third-post-container {
+  border: none;
+}

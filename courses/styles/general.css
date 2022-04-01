@@ -1,0 +1,17 @@
+.courses {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Ubuntu', sans-serif;
+
+  padding-left: 11.2rem;
+}
+
+.courses a {
+  color: white;
+}

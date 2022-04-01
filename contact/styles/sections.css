@@ -1,0 +1,76 @@
+.contact section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20.1rem;
+}
+
+.contact section h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+  color: #ff4081;
+
+  margin-bottom: 4.4rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Nunito', sans-serif;
+
+  gap: 1.5rem;
+}
+
+.contact input {
+  height: 3.2rem;
+  width: 49.3rem;
+  border-radius: 0.7rem;
+
+  border: 0.1rem solid #ffa000;
+
+  padding: 0.76rem 0 0.76rem 2.213rem;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.contact textarea {
+  border: 0.1rem solid #ffa000;
+
+  height: 19.3rem;
+  width: 49.3rem;
+  border-radius: 0.7rem;
+
+  padding: 0.76rem 0 0.76rem 2.213rem;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.contact section button {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
+  text-align: center;
+
+  border: none;
+  background-color: #ff4081;
+  color: white;
+
+  height: 3.2rem;
+  width: 10.8rem;
+  border-radius: 5rem;
+
+  cursor: pointer;
+}
+
+@media (max-width: 76.8rem) {
+  .contact .fields-side-image {
+    display: none;
+  }
+}

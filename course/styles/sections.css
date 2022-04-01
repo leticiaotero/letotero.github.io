@@ -1,0 +1,89 @@
+.course .first-course-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8.8rem;
+
+  padding-top: 10.8rem;
+  padding-bottom: 6.8rem;
+}
+
+.course .first-course-section img {
+  height: 38.1rem;
+  width: 38rem;
+}
+
+.course .first-course-section b {
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: 6.3rem;
+
+  color: #ff4081;
+}
+
+.course .first-course-section p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+
+  margin-top: 3.7rem;
+  margin-bottom: 5.3rem;
+
+  width: 50.1rem;
+}
+
+.course .second-course-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f6f6f6;
+}
+
+.course .class-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 7.6rem;
+}
+
+.course .blank-box {
+  height: 26.1rem;
+  width: 46.2rem;
+
+  border: 0.3rem solid #8e8e8e;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course .second-course-section img {
+  height: 9rem;
+  width: 9rem;
+}
+
+.course .second-course-section b {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+
+  color: #ff4081;
+}
+
+.course .second-course-section p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+
+  margin-top: 2.6rem;
+
+  width: 46.1rem;
+}
+
+.course .third-class-container {
+  border: none;
+}

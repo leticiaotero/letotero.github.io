@@ -1,0 +1,228 @@
+.home section {
+  width: 100%;
+}
+
+.home .first-section {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 20.6rem 6.6rem 20.6rem;
+  margin-top: 12.5rem;
+}
+
+.home .first-section div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2.5rem;
+}
+
+.home .first-section h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 6.9rem;
+}
+
+.home .first-section p {
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 3.1rem;
+}
+
+.home .first-section button {
+  border: 0.2rem solid #ff4081;
+  color: #ff4081;
+
+  height: 5.1rem;
+  width: 26.8rem;
+  border-radius: 6.2rem;
+
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 3.1rem;
+}
+
+.home .second-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 11.3rem 12.7rem;
+
+  background-color: #f6f6f6;
+}
+
+.home .second-section div {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 2.4rem;
+}
+
+.home .second-section img {
+  margin-bottom: 2.1rem;
+}
+
+.home .second-section b {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2.9rem;
+  color: #ff4081;
+}
+
+.home .second-section p {
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.home .second-section button {
+  height: 5.1rem;
+  width: 23.3rem;
+  border-radius: 6.2rem;
+
+  background-color: #ff4081;
+
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  color: white;
+}
+
+.home .second-section a {
+  color: white;
+}
+
+.home .third-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 11.9rem 22.5rem 15.7rem 12.8rem;
+
+  font-family: 'Nunito', sans-serif;
+
+  gap: 7.8rem;
+}
+
+.home .bottom-titles {
+  font-size: 3.7rem;
+  font-weight: 700;
+  line-height: 5rem;
+  color: #009688;
+
+  margin-bottom: 7.3rem;
+}
+
+.home .portraits-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  row-gap: 9.7rem;
+  column-gap: 8.6rem;
+}
+
+.home .portrait-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2.8rem;
+}
+
+.home .portrait-commentary {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .third-section p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.home .third-section span {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.home .fourth-section {
+  width: 100%;
+  padding: 9.1rem 13.7rem 5.3rem 12.8rem;
+
+  background-color: #f6f6f6;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.home .gray-boxes-container {
+  display: flex;
+  gap: 10.9rem;
+}
+
+.home .gray-box-container div {
+  height: 19.3rem;
+  width: 31.9rem;
+
+  background-color: #c4c4c4;
+
+  margin-bottom: 1.1rem;
+}
+
+.home .gray-box-container b {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #009688;
+}
+
+.home .gray-box-container p {
+  font-weight: 400;
+  font-size: 1.15rem;
+}
+
+.home .fourth-section button {
+  margin-top: 10.1rem;
+
+  height: 5.1rem;
+  width: 28.9rem;
+
+  border: 0.2rem solid #ff4081;
+  border-radius: 6.2rem;
+
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 2.9rem;
+  color: #ff4081;
+}
+
+.home .fourth-section a {
+  color: #ff4081;
+}
+
+@media (max-width: 1375px) {
+  .home .gray-boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .home .first-section {
+    flex-direction: column-reverse;
+
+    gap: 3rem;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+
+    align-items: center;
+  }
+}
+
+

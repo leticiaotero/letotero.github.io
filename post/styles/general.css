@@ -13,3 +13,7 @@
 .post section {
   width: 100%;
 }
+
+.post a {
+  color: white;
+}

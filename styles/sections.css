@@ -42,6 +42,10 @@
   line-height: 3.1rem;
 }
 
+.home first-section a {
+  color: #ff4081;
+}
+
 .home .second-section {
   display: flex;
   justify-content: space-between;
